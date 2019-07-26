@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Farnham;
+  src: url("/vendor/fonts/farnham/FarnhamDisp-BlackOSF.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Farnham;
+  src: url("/vendor/fonts/farnham/FarnhamDisp-BoldOSF.otf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Farnham;
+  src: url("/vendor/fonts/farnham/FarnhamDisp-LightOSF.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Farnham;
+  src: url("/vendor/fonts/farnham/FarnhamDisp-MedOSF.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Farnham;
+  src: url("/vendor/fonts/farnham/FarnhamDisp-RegOSF.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url("/vendor/fonts/avenir/avenirltstd-black-webfont.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url("/vendor/fonts/avenir/avenirltstd-heavy-webfont.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url("/vendor/fonts/avenir/avenirltstd-light-webfont.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url("/vendor/fonts/avenir/avenirltstd-book-webfont.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url("/vendor/fonts/avenir/avenirltstd-medium-webfont.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-web.eot');
+    src: url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-web.eot?#iefix') format('embedded-opentype'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-web.woff') format('woff'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-web.ttf') format('truetype'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-web.svg#gt_walsheim_medium') format('svg');
+    font-weight: normal;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-oblique-web.eot');
+    src: url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-oblique-web.eot?#iefix') format('embedded-opentype'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-oblique-web.woff') format('woff'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-oblique-web.ttf') format('truetype'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-medium-oblique-web.svg#gt_walsheim_medium_oblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* GT Walsheim Web Regular */
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/vendor/fonts/GT_Walsheim/gt-walsheim-web.eot');
+    src: url('/vendor/fonts/GT_Walsheim/gt-walsheim-web.eot?#iefix') format('embedded-opentype'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-web.woff') format('woff'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-web.ttf') format('truetype'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-web.svg#gt_walsheim_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GT Walsheim';
+    src: url('/vendor/fonts/GT_Walsheim/gt-walsheim-regular-oblique-web.eot');
+    src: url('/vendor/fonts/GT_Walsheim/gt-walsheim-regular-oblique-web.eot?#iefix') format('embedded-opentype'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-regular-oblique-web.woff') format('woff'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-regular-oblique-web.ttf') format('truetype'),
+         url('/vendor/fonts/GT_Walsheim/gt-walsheim-regular-oblique-web.svg#gt_walsheim_regular_oblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}

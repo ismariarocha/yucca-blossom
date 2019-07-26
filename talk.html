@@ -1,0 +1,63 @@
+---
+layout: default
+page_name: talk
+---
+
+{% include navbar.html %}
+
+<section class="bg-grey">
+  <div class="container">
+    <h1 class="section-title center primary">Talk With Us</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="box bg-white">
+          <div class="contact-card justify-content-center mb2">
+            <img src="img/team/natalie.jpg" class="img-fluid team-member">
+            <div class="content">
+              <h5>Yucca Blossom</h5>
+              <p>We look forward to hearing from you.</p>
+              <p class="tertiary">Natalie London — <span class="grey">Director and Children's House guide</span></p>
+            </div>
+          </div>
+          <form class="left" accept-charset="UTF-8" action="https://www.page-bird.com/f/" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input required="" name="name" type="name" class="form-control" placeholder="Your name">
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input required="" name="email" type="email" class="form-control" placeholder="name@example.com">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input required="" name="phone" type="phone" class="form-control" placeholder="Your phone number">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="meeting_type">Would you prefer:</label>
+                <select name="meeting_type" required="" class="custom-select">
+                  <option selected value="phone-call">Schedule a Call (15 Minutes)</option>
+                  <option value="info-session">Attend a Meet and Greet (2 Hours)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="childs_name_and_age">What is your child's name and age?</label>
+                <input required="" name="childs_name_and_age" type="text" class="form-control">
+              </div>
+
+              <input type="text" name="_gotcha" style="display:none">
+
+              <div class="center">
+                <input type="submit" value="Submit" class="button quaternary mb0">
+              </div>
+            </form>
+        </div>
+      </div>
+    </div> <!-- end row -->
+  </div>
+</section>

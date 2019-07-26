@@ -1,0 +1,163 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  margin-top: 90px;
+}
+
+body {
+  font-family: "Avenir",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+  margin: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  color: $black;
+}
+
+@mixin serif {
+  font-family: "GT Walsheim",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;;
+}
+
+.serif {
+  @include serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+  color: $black;
+  @include serif;
+}
+
+.section-heading, .section-title {
+  font-size: 3rem;
+  font-weight: 600;
+  @include serif;
+
+  @media (max-width: 991px) { font-size: 2.5rem; }
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  @media (max-width: 991px) { font-size: 2.5rem; }
+}
+
+h2 {
+  font-size: 2.25rem;
+  @media (max-width: 991px) { font-size: 1.85rem; }
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: $primary;
+  font-weight: 500;
+  transition: 200ms all;
+
+  &:hover {
+    color: darken($secondary, 10%);
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.hide, .hidden {
+  display: none;
+}
+
+.center, .centered {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.bold, strong {
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 2rem;
+  line-height: 1.7;
+  font-weight: 300;
+
+  @media (max-width: 991px) {
+    font-size: 1.5rem;
+  }
+}
+
+.light {
+  font-weight: 300;
+}
+
+.no-effects {
+  &:hover, &:focus, &:active { outline: none; }
+}
+
+.white-letters {
+  color: white;
+  h1, h2, h3, h4, h5, h6, p, a, ul, li {
+    color: white;
+  }
+
+  .styled-number-list li:before {
+    color: white;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.bring-to-front {
+  z-index: 10;
+}
+
+.hidden-mobile {
+  @media(max-width: 991px) {
+    display: none;
+  }
+}
+
+.centered-mobile {
+  @media(max-width: 991px) {
+    text-align: center;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.link-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.separator-bottom { margin-bottom: 3rem; }
+.separator-top { margin-top: 3rem; }
+
+.visible-sm {
+  @media(min-width: 992px) {
+    display: none;
+  }
+}
+
+.img-size-std {
+  max-height: 500px;
+}

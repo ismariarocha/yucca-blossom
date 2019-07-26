@@ -1,0 +1,44 @@
+$primary:  #3F6396;
+$secondary: #3e92cc;
+$tertiary: #C1426D;
+$quaternary: #006863;
+$green: #27ae60;
+$blue: #003a68;
+$light-blue: #3498db;
+$red: #e74c3c;
+$yellow: #EAAD21;
+$orange: rgb(245,120,79);
+$purple: #4D43C1;
+$black: #1b2733;
+$grey: #637282;
+$light-grey: #cccccc;
+$bg-grey: #f7f8fb;
+
+.blue { color: $blue; }
+.light-blue { color: $light-blue; }
+.red { color: $red; }
+.green { color: $green; }
+.yellow { color: $yellow; }
+.purple { color: $purple; }
+.grey { color: $grey; }
+.white { color: white; }
+
+.primary { color: $primary; }
+.primary { color: $primary; }
+.secondary { color: $secondary; }
+.tertiary { color: $tertiary; }
+.quaternary { color: $quaternary; }
+
+.bg-primary { background-color: $primary !important; }
+.bg-secondary { background-color: $secondary !important; }
+.bg-tertiary { background-color: $tertiary !important; }
+.bg-quaternary { background-color: $quaternary !important; }
+
+.bg-yellow { background-color: $yellow; }
+.bg-blue { background-color: $blue; }
+.bg-light-blue { background-color: $light-blue; }
+.bg-red { background-color: $red; }
+.bg-green { background-color: $green; }
+.bg-white { background-color: white; }
+.bg-grey { background-color: $bg-grey; }
+.bg-purple { background-color: $purple; }

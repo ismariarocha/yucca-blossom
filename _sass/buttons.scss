@@ -1,0 +1,83 @@
+.button {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  margin: 10px 0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.2;
+  cursor: pointer;
+  border: solid 2px white;
+  display: inline-block;
+  white-space: normal;
+  border-radius: 3px;
+
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+
+  &:hover, &:focus, &:active {
+    text-decoration: none;
+    opacity: 1;
+    outline: none;
+  }
+
+  &.sm {
+    font-size: 0.8rem;
+    padding: 0.33rem 1rem;
+  }
+
+  &.lg {
+    font-size: 3rem;
+    width: 100%;
+    max-width: 420px;
+  }
+
+  &.primary {
+    background: $primary;
+    border-color: $primary;
+    color: white;
+    &:hover, &:focus {
+      color: $primary;
+      border-color: $primary;
+      background-color: rgba($primary, 0.15);
+    }
+  }
+
+  &.quaternary {
+    background: $quaternary;
+    border-color: $quaternary;
+    color: white;
+    &:hover, &:focus {
+      color: $quaternary;
+      border-color: $quaternary;
+      background-color: rgba($quaternary, 0.15);
+    }
+  }
+
+  &.secondary {
+    background: transparent;
+    color: $secondary;
+    border-color: $secondary;
+
+    &:hover, &:focus {
+      color: #fff;
+      background: $secondary;
+      border-color: $secondary;
+    }
+  }
+
+  &.white {
+    background: transparent;
+    border-color: white;
+    color: white;
+    &:hover, &:focus {
+      color: white;
+      background: rgba(white, 0.2);
+      border-color: white;
+    }
+  }
+}

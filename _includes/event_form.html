@@ -1,0 +1,115 @@
+<!-- <form class="left" action="https://www.page-bird.com/f/75db34906bf2" method="post">
+
+  <h3 class="primary">Events</h3>
+
+  <p>
+    Which events do you plan to attend/participate in?
+  </p>
+
+  {% assign events = site.data.events %}
+
+  {% for event in events %}
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="events[]" value="{{ event.name | strip_html }}: {{ event.date }}" id="event_{{ forloop.index }}">
+        <label class="form-check-label" for="event_{{ forloop.index }}">
+          <div>
+            {{ event.name }}
+          </div>
+          <span class="grey">{{ event.date }}</span>
+        </label>
+      </div>
+    </div>
+  {% endfor %} -->
+
+
+  <h3 class="primary separator-top mb-3">What are you hoping to learn at our Events?</h3>
+
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="what_are_you_hoping_to_learn[]" value="What is Yucca Blossom?" id="hoping_to_learn_1">
+      <label class="form-check-label" for="hoping_to_learn_1">
+        What is Yucca Blossom?
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="what_are_you_hoping_to_learn[]" value="How is it different from other schools?" id="hoping_to_learn_2">
+      <label class="form-check-label" for="hoping_to_learn_2">
+        How is it different from other schools?
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="what_are_you_hoping_to_learn[]" value="Is Yucca Blossom a good fit for my family?" id="hoping_to_learn_3">
+      <label class="form-check-label" for="hoping_to_learn_3">
+        Is Yucca Blossom a good fit for my family?
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="what_are_you_hoping_to_learn[]" value="How will I know if my child is ready?" id="hoping_to_learn_4">
+      <label class="form-check-label" for="hoping_to_learn_4">
+        How will I know if my child is ready?
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="what_are_you_hoping_to_learn[]" value="What is involved in the audition process?" id="hoping_to_learn_5">
+      <label class="form-check-label" for="hoping_to_learn_5">
+        What is involved in the audition process?
+      </label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="what_are_you_hoping_to_learn_other">Other:</label>
+    <input name="what_are_you_hoping_to_learn_other" type="text" class="form-control" placeholder="(optional)">
+  </div>
+
+  <h3 class="primary separator-top">Basic Info</h3>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="first_name">First Name</label>
+        <input required="" name="first_name" type="name" class="form-control" placeholder="Your first name">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="last_name">Last Name</label>
+        <input required="" name="last_name" type="name" class="form-control" placeholder="Your last name">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input required="" name="email" type="email" class="form-control" placeholder="name@example.com">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="phone">Phone number</label>
+        <input required="" name="phone" type="phone" class="form-control" placeholder="+1 (512) 1555-555">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="last_name">Names and ages of those attending</label>
+    <input required="" name="names_and_ages_of_attendees" type="name" class="form-control">
+  </div>
+
+  <input type="hidden" name="_next" value="thanks" />
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <div class="center">
+    <input type="submit" value="Submit" class="button primary">
+  </div>
+</form>

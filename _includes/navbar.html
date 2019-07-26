@@ -1,0 +1,91 @@
+<nav class="navbar navbar-expand-lg navbar-light solid">
+  <div class="container align-items-center">
+    <a class="navbar-brand logo-wrapper" href="{{ site.url }}">
+      <img src="img/logo.jpg" class="logo" alt="Logo">
+    </a>
+    <button class="navbar-toggler sidebar-toggler" type="button">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link {% if page.page_name == 'about' %} active {% endif %}" href="about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Programs and Tuition
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="nav-link {% if page.page_name == 'programs' %} active {% endif %}" href="programs">Programs</a>
+            <a class="nav-link {% if page.page_name == 'tuition' %} active {% endif %}" href="tuition">Tuition</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="nav-link {% if page.page_name == 'resources' %} active {% endif %}" href="resources">Helpful Links</a>
+            <a class="nav-link {% if page.page_name == 'faq' %} active {% endif %}" href="faq">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.page_name == 'admissions' %} active {% endif %}" href="admissions">Admissions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.page_name == 'contact' %} active {% endif %}" href="contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link button white" href="talk">Talk With Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="sidebar">
+  <div class="sidebar-toggler">
+    <div class="sidebar-close">×</div>
+  </div>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link {% if page.page_name == 'home' %} active {% endif %}" href="{{ site.url }}">Homepage</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if page.page_name == 'about' %} active {% endif %}" href="about">About</a>
+    </li>
+    <li class="nav-item indented">
+      <a class="nav-link {% if page.page_name == 'programs' %} active {% endif %}" href="programs">Programs</a>
+    </li>
+    <li class="nav-item indented">
+      <a class="nav-link {% if page.page_name == 'tuition' %} active {% endif %}" href="tuition">Tuition</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if page.page_name == 'resources' %} active {% endif %}" href="resources">Resources</a>
+    </li>
+    <li class="nav-item indented">
+      <a class="nav-link {% if page.page_name == 'resources' %} active {% endif %}" href="resources">Helpful Links</a>
+    </li>
+    <li class="nav-item indented">
+      <a class="nav-link {% if page.page_name == 'faq' %} active {% endif %}" href="faq">FAQ</a>
+    </li>
+    <li class="nav-item indented">
+      <a class="nav-link {% if page.page_name == 'admissions' %} active {% endif %}" href="admissions">Admissions</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link {% if page.page_name == 'contact' %} active {% endif %}" href="contact">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link button white"
+        href="talk">Talk with us</a>
+    </li>
+
+    <div class="bottom">
+      <img src="img/logo.svg" class="logo">
+    </div>
+  </ul>
+</div>
+
+<div class="sidebar-overlay"></div>
